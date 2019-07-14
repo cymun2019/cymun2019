@@ -1,8 +1,8 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://tunganh03.github.io/jekyll-uno/'
-baseurl: '/jekyll-uno'
+title: CYMUN 2019
+description: 'CYMUN 2019 - a minimal, responsive theme for Jekyll'
+url: 'http://cymun2019.github.io/'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 

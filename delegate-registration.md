@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Registration
+title: Delegate Registration
 permalink: /delegate-registration/
 robots: noindex
 ---

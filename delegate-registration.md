@@ -38,20 +38,74 @@ Personal Information
   <input style="display: block;" type="radio" name="englishlevel" value="Native"> Native speaker
   <button style="display: block;" type="submit">SUBMIT!</button>
 </form>
-<div>
-    <label class="radio">
-        <input type="radio" name="r" value="1" checked>
-        <span>Radio #1</span>
-    </label>
-    <label class="radio">
-        <input type="radio" name="r" value="2">
-        <span>Radio #2</span>
-    </label>
-    <label class="radio">
-        <input type="radio" name="r" value="3">
-        <span>Radio #3</span>
-    </label>
-</div>
+<main class="fancy">
+  <section class="demo">
+    <div class="box">
+      <h3>Checkbox <br /><small>(Multi-select)</small></h3>
+      <p>
+        <label for="Cookies">
+          <input id="Cookies" name="yaybox" type="checkbox" value="Cookies" checked />
+          <span>Chocolate Chip Cookies</span>
+        </label>
+      </p>
+      <p>
+        <label for="Milk">
+          <input id="Milk" name="yaybox" type="checkbox" value="Milk" />
+          <span>Ice Cold Milk</span>
+        </label>
+      </p>
 
-<!-- twitter -->
-<a class="twitter" href="https://twitter.com/aaroniker_me" target="_blank">Twitter</a>
+   <p>
+        <label for="Other">
+          <input id="Other" name="yaybox" type="checkbox" value="Other" />
+          <span>Raspberry-Lemon Pastry with Cream Cheese Frosting and Graham Cracker Crust</span>
+        </label>
+      </p>
+
+   <hr />
+
+   <h3>Radio Button <br /><small>(Single-select)</small></h3>
+      <p>
+        <label for="Chocolate">
+          <input id="Chocolate" name="yaydio" type="radio" value="Chocolate" />
+          <span>Chocolate Candies</span>
+        </label>
+      </p>
+      <p>
+        <label for="Strawberry">
+          <input id="Strawberry" name="yaydio" type="radio" value="Strawberry" />
+          <span>Strawberry Jelly</span>
+        </label>
+      </p>
+      <p>
+        <label for="Vanilla">
+          <input id="Vanilla" name="yaydio" type="radio" value="Vanilla" checked />
+          <span>Vanilla Ice Cream</span>
+        </label>
+      </p>
+    </div>
+  </section>
+  
+  <section class="controls">
+    <div>
+      <p>
+        <label for="sim">
+          <input id="sim" name="sim" type="checkbox" value="sim" checked onchange="toggleTheFancy()" />
+          <span>Toggle The Fanciness</span>
+        </label>
+      </p>
+      <p>
+        <label for="square">
+          <input id="square" name="square" type="checkbox" value="square" onchange="toggleTheShape()" />
+          <span>Square Checkboxes</span>
+        </label>
+      </p>
+      <p>
+        <small>Change width to force line-<br />wrapping. Notice the text alignment!</small><br />
+        <label for="slider">
+          <input id="slider" type="range" min="5" max="100" value="100" oninput="setProperty('--demo-width', this.value)" />
+        </label>
+      </p>
+    </div>
+  </section>
+</main>

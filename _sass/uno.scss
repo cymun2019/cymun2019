@@ -1996,101 +1996,97 @@ nav .input-field label.active i {
 	cursor: text
 }
 
-/* ====================================================
-Recreating the email field from https://webflow.com/cms. Just an experiment - not as cross-browser friendly as the original.
-Changed:
-- animated gradient bar to :after element
-- flexbox for layout
-==================================================== */
-
-
-
-// for demo
-h1.demo {
-  text-align: center;
-  font-size: 2.4rem;
-  font-weight: normal;
-  margin-bottom: 1rem;
-  color: #f5f6ff;
+/* form starting stylings ------------------------------- */
+.group 			  { 
+  position:relative; 
+  margin-bottom:45px; 
 }
-a.demo {
-  text-align: center;
-  font-size: 1.6rem;
-  font-weight: normal;
-  color: rgba(202, 205, 239, 0.8);
-  margin-bottom: 3rem;
+input 				{
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
 }
-.demo-flex-spacer {
-  flex-grow: 1;
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  //justify-content: center;
-  height: 100vh;
-  max-width: 1600px;
-  padding: 0 15px;
-  margin: 0 auto;
+input:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+label 				 {
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
 }
 
-// colors
-$input-background: rgba(57, 63, 84, 0.8);
-$input-text-inactive: #7881A1;
-$input-text-active: #BFD2FF;
-
-// gradient animation
-@keyframes gradient { 
-  0%{background-position:0 0}
-  100%{background-position:100% 0}
+/* active state */
+input:focus ~ label, input:valid ~ label 		{
+  top:-20px;
+  font-size:14px;
+  color:#5264AE;
 }
 
-.webflow-style-input {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto;
-  border-radius: 2px;
-  padding: 1.4rem 2rem 1.6rem;
-  background: $input-background;
-  &:after {
-    content: "";
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    z-index: 999;
-    height: 2px;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-    background-position: 0% 0%;
-    background: linear-gradient(to right, #B294FF, #57E6E6, #FEFFB8, #57E6E6, #B294FF, #57E6E6);
-    background-size: 500% auto;
-    animation: gradient 3s linear infinite;
-  }
+/* BOTTOM BARS ================================= */
+.bar 	{ position:relative; display:block; width:300px; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#5264AE; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
 }
 
-.webflow-style-input input {
-  flex-grow: 1;
-  color: $input-text-active;
-  font-size: 1.8rem;
-  line-height: 2.4rem;
-  vertical-align: middle;
-  &::-webkit-input-placeholder {
-    color: $input-text-inactive;
-  }
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
 }
 
-.webflow-style-input button {
-  color:  $input-text-inactive;
-  font-size: 2.4rem;
-  line-height: 2.4rem;
-  vertical-align: middle;
-  transition: color .25s;
-  &:hover {
-    color: $input-text-active;
-  }
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:60%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
 }
 
 @media all and (min-width: 1300px) {

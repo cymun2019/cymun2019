@@ -2089,6 +2089,7 @@ input:focus ~ .highlight {
   to 	{ width:0; background:transparent; }
 }
 
+<<<<<<< HEAD
 $primary = #225CFF
 $gray = #C8CCD4
 
@@ -2161,6 +2162,8 @@ input[type="radio"]:checked + .label
     transform: scale(.95)
 
 
+=======
+>>>>>>> parent of a437254... test
 @media all and (min-width: 1300px) {
 	.content-wrapper {
 		margin-left: 530px; } }

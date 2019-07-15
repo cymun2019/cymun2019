@@ -38,6 +38,7 @@ Personal Information
   <input style="display: block;" type="radio" name="englishlevel" value="Native"> Native speaker
   <button style="display: block;" type="submit">SUBMIT!</button>
 </form>
+<<<<<<< HEAD
 <div class="cntr">
   
   <label for="opt1" class="radio">
@@ -64,3 +65,6 @@ Personal Information
 
 <!-- dribbble -->
 <a class="credit" href="https://dribbble.com/shots/4647673-Material-Design-Radio-Buttons" target="_blank"><img src="https://cdn.dribbble.com/assets/logo-footer-hd-a05db77841b4b27c0bf23ec1378e97c988190dfe7d26e32e1faea7269f9e001b.png" alt=""></a>
+=======
+<div class="container">
+>>>>>>> parent of a437254... test

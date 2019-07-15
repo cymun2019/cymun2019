@@ -2248,39 +2248,40 @@ p {
 }
 
 .rb {
-  padding: 16px 0;
-  text-align: center;
-  background: rgba(17,17,17,0.5);
-  border-radius: .3em;
+    padding: 12px 0px;
+    text-align: center;
+    background: rgba(17,17,17,0.5);
+    border-radius: 3.3em;
 }
 
 .rb-tab {
-  display: inline-block;
-  position: relative;
-  width: 20%;
+    display: inline-block;
+    position: relative;
+    width: 7%;
 }
 
 .rb-txt {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: .5em;
-  color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    color: #FFFFFF;
 }
 
 .rb-spot {
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: transparent;
-  border: 2px solid rgba(17,17,17,.3);
-  border-radius: 100%;
-  cursor: pointer;
-  transition: ease .5s;
+    position: sticky;
+    width: 40px;
+    height: 40px;
+    top: 81%;
+    left: 52%;
+    transform: translate(0%, 0%);
+    background: transparent;
+    border: 2px solid rgba(17,17,17,0.3);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: ease .5s;
+    text-shadow: 0 0 black;
 }
 
 .rb-tab-active .rb-spot {

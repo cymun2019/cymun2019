@@ -44,8 +44,6 @@ Personal Information
     <textarea name="question1" id="q1" rows = "5" cols = "50" placeholder="Your answer here"></textarea>
     Rate your understanding of MUN from 1 to 10 
 
-    <div class="rb-box">
-
   <!-- Radio Button Module -->
   <p>1. On a scale of 1 to 5 how cubic are you?</p>
   <div id="rb-1" class="rb">
@@ -176,12 +174,7 @@ Personal Information
     </div>
   </div>
 
-  <!-- Button -->
-  <div class="button-box">
-    <button class="button trigger">Submit!</button>
-  </div>
 
-</div>
    <p> 2. Which committee do you want to participate ?</p>
 <div class="custom-select" style="width:370px; margin-bottom:30;" >
   <select name="question2">

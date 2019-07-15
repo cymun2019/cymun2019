@@ -45,7 +45,7 @@ Personal Information
 
   <!-- Radio Button Module -->
   <p>2. On a scale of 1 to 10 rate your understanding of MUN</p>
-  <div id="rb-1" class="rb">
+  <div id="rb-1" class="rb" name="question2">
     <div class="rb-tab rb-tab-active" data-value="1">
       <div class="rb-spot">
         <span class="rb-txt">1</span>
@@ -91,7 +91,7 @@ Personal Information
 
   <!-- Radio Button Module -->
   <p>3. On a scale of 1 to 10 rate your English proficiency</p>
-  <div id="rb-1" class="rb">
+  <div id="rb-1" class="rb" name="question3">
     <div class="rb-tab rb-tab-active" data-value="1">
       <div class="rb-spot">
         <span class="rb-txt">1</span>
@@ -137,15 +137,15 @@ Personal Information
 
    <p> 4. Which committee do you want to participate ?</p>
 <div class="custom-select" style="width:370px; margin-bottom:30;" >
-  <select name="question2">
+  <select name="question4">
     <option value="none">Select committee:</option>
     <option value="SOCHUM">United Nations General Assembly Third Committee - SOCHUM</option>
     <option value="WHO">World Health Organisation - WHO</option>
     <option value="UNICEF">United Nations Children's Fund - UNICEF</option>
   </select>
 </div>
-<p style="margin-top:30;">3. Express your viewpoints and suggest some solutions to a global issue that you pay attention to. (250 words minimum)</p>
-    <textarea name="question3" id="q3" rows = "5" cols = "40" placeholder="Your answer here"></textarea>
+<p style="margin-top:30;">5. Express your viewpoints and suggest some solutions to a global issue that you pay attention to. (250 words minimum)</p>
+    <textarea name="question5" id="q3" rows = "5" cols = "40" placeholder="Your answer here"></textarea>
 
 <button style="display: block;" class="btn btn-white btn-animation-1" type="submit">SUBMIT MY FORM!</button>
 </form>

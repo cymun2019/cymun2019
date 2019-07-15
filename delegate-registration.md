@@ -14,7 +14,7 @@ Personal Information
      <label>Full name</label>
    </div>
  <label for="dateofbirth">Date of birth</label>
-<input type="date" class="form-control" id="dateofbirth" name="dateofbirth" placeholder="Date of Birth" style="margin-bottom: 20">
+<input type="date" class="form-control" id="dateofbirth" name="dateofbirth" placeholder="Date of Birth" style="margin-bottom: 50">
      <div class="group">      
     <input type="text" required name="email">
       <span class="highlight"></span>
@@ -33,10 +33,8 @@ Personal Information
       <span class="bar"></span>
      <label>Class name</label>
    </div>   
-    <label>1. Why do you want to participate in CYMUN 2019 ? (200 words maximum)</label>
-    <textarea name="question1" rows = "3" cols = "80">Your answer here</textarea>
-
-   </div>   
+    <label for="q1">1. Why do you want to participate in CYMUN 2019 ? (200 words maximum)</label>
+    <textarea name="question1" id="q1" rows = "3" cols = "80">Your answer here</textarea>
 
 <button style="display: block;" type="submit">SUBMIT!</button>
 </form>

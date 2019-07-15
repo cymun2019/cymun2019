@@ -12,6 +12,7 @@ Continuing its previous endeavor, CYMUN 2019 will also feature <strong>Delegatio
 
 <strong>Register to become a part of CYMUN 2019 now:</strong>
 </p>
+<a href="http://google.com" class="btn btn-default">Go to Google</a>
 <button type="submit" formaction="/delegate-registration" class="blog-button">DELEGATE REGISTRATION (OPENING)</button>
 <button type="submit" formaction="/observer-registration" class="blog-button">OBSERVER REGISTRATION (OPENING)</button>
 <form method="POST" action="https://formspree.io/tunnaduong@gmail.com">

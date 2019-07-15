@@ -56,5 +56,5 @@ Personal Information
     <div class="box">
   <a href="#" type="submit" class="btn btn-white btn-animation-1">Hover Over Me</a> 
 </div>
-<button style="display: block;" type="submit">SUBMIT!</button>
+<button style="display: block;" class="btn btn-white btn-animation-1" type="submit">SUBMIT!</button>
 </form>

@@ -2089,88 +2089,104 @@ input:focus ~ .highlight {
   to 	{ width:0; background:transparent; }
 }
 
-body {
-	font-family: "Roboto", sans-serif;
-}
+$radioSize: 22px;
+$radioBorder: #D1D7E3;
+$radioActive: #5D9BFB;
 
 .radio {
-	position: relative;
-	cursor: pointer;
-	line-height: 20px;
-	font-size: 14px;
-	margin: 15px;
+    margin: 16px 0;
+    display: block;
+    cursor: pointer;
+    input {
+        display: none;
+        & + span {
+            line-height: $radioSize;
+            height: $radioSize;
+            padding-left: $radioSize;
+            display: block;
+            position: relative;
+            &:not(:empty) {
+                padding-left: $radioSize + 8;
+            }
+            &:before,
+            &:after {
+                content: '';
+                width: $radioSize;
+                height: $radioSize;
+                display: block;
+                border-radius: 50%;
+                left: 0;
+                top: 0;
+                position: absolute;
+            }
+            &:before {
+                background: $radioBorder;
+                transition: background .2s ease, transform .4s cubic-bezier(.175, .885, .32, 2);
+            }
+            &:after {
+                background: #fff;
+                transform: scale(.78);
+                transition: transform .6s cubic-bezier(.175, .885, .32, 1.4);
+            }
+        }
+        &:checked + span {
+            &:before {
+                transform: scale(1.04);
+                background: $radioActive;
+            }
+            &:after {
+                transform: scale(.4);
+                transition: transform .3s ease;
+            }
+        }
+    }
+    &:hover {
+        input {
+            & + span {
+                &:before {
+                    transform: scale(.92);
+                }
+                &:after {
+                    transform: scale(.74);
+                }
+            }
+            &:checked + span {
+                &:after {
+                    transform: scale(.4);
+                }
+            }
+        }
+    }
 }
 
-.radio .label {
-	position: relative;
-	display: block;
-	float: left;
-	margin-right: 10px;
-	width: 20px;
-	height: 20px;
-	border: 2px solid #c8ccd4;
-	border-radius: 100%;
-	-webkit-tap-highlight-color: transparent;
+// Center & twitter
+body {
+    min-height: 100vh;
+    font-family: Roboto, Arial;
+    color: #ADAFB6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .twitter {
+        position: fixed;
+        display: block;
+        right: 24px;
+        bottom: 24px;
+        opacity: .5;
+        color: #212533;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all .4s ease;
+        &:hover {
+            opacity: 1;
+        }
+        img {
+            display: block;
+            height: 36px;
+        }
+    }
 }
 
-.radio .label:after {
-	content: '';
-	position: absolute;
-	top: 3px;
-	left: 3px;
-	width: 10px;
-	height: 10px;
-	border-radius: 100%;
-	background: #225cff;
-	transform: scale(0);
-	transition: all 0.2s ease;
-	opacity: 0.08;
-	pointer-events: none;
-}
-
-.radio:hover .label:after {
-	transform: scale(3.6);
-}
-
-input[type="radio"]:checked + .label {
-	border-color: #225cff;
-}
-
-input[type="radio"]:checked + .label:after {
-	transform: scale(1);
-	transition: all 0.2s cubic-bezier(0.35, 0.9, 0.4, 0.9);
-	opacity: 1;
-}
-
-.cntr {
-	position: absolute;
-	top: calc(50% - 10px);
-	left: 0;
-	width: 100%;
-	text-align: center;
-}
-
-.hidden {
-	display: none;
-}
-
-.credit {
-	position: fixed;
-	right: 20px;
-	bottom: 20px;
-	transition: all 0.2s ease;
-	-webkit-user-select: none;
-	user-select: none;
-	opacity: 0.6;
-}
-
-.credit img {
-	width: 72px;
-}
-
-.credit:hover {
-	transform: scale(0.95);
-}
 
 @media all and (min-width: 1300px) {
 	.content-wrapper {

@@ -38,27 +38,20 @@ Personal Information
   <input style="display: block;" type="radio" name="englishlevel" value="Native"> Native speaker
   <button style="display: block;" type="submit">SUBMIT!</button>
 </form>
-<div class="cntr">
-  
-  <label for="opt1" class="radio">
-    <input type="radio" name="rdo" id="opt1" class="hidden"/>
-    <span class="label"></span>Adobe
-  </label>
-  
-  <label for="opt2" class="radio">
-    <input type="radio" name="rdo" id="opt2" class="hidden"/>
-    <span class="label"></span>Figma
-  </label>
-  
-  <label for="opt3" class="radio">
-    <input type="radio" name="rdo" id="opt3" class="hidden"/>
-    <span class="label"></span>InVision
-  </label>
-  
-  <label for="opt4" class="radio">
-    <input type="radio" name="rdo" id="opt4" class="hidden"/>
-    <span class="label"></span>Sketch
-  </label>
-  
+<div>
+    <label class="radio">
+        <input type="radio" name="r" value="1" checked>
+        <span>Radio #1</span>
+    </label>
+    <label class="radio">
+        <input type="radio" name="r" value="2">
+        <span>Radio #2</span>
+    </label>
+    <label class="radio">
+        <input type="radio" name="r" value="3">
+        <span>Radio #3</span>
+    </label>
 </div>
 
+<!-- twitter -->
+<a class="twitter" href="https://twitter.com/aaroniker_me" target="_blank">Twitter</a>

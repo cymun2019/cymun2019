@@ -4,6 +4,7 @@ title: Delegate Registration
 permalink: /delegate-registration/
 robots: noindex
 ---
+<link rel="stylesheet" href="https://cymun2019.github.io/css/form.css">
 <h2>Delegate Registration Form</h2>
 Personal Information
 <form method="POST" action="https://formspree.io/cymun2019.official@gmail.com">

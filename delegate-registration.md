@@ -6,7 +6,7 @@ robots: noindex
 ---
 <h2>Delegate Registration Form</h2>
 Personal Information
-<form method="POST" action="https://formspree.io/tunnaduong@gmail.com">
+<form method="POST" action="https://formspree.io/cymun2019.official@gmail.com">
 <input type="text" name="firstname" placeholder="First name">
 <input type="text" name="lastname" placeholder="Last name">
 <input type="date" class="form-control" name="dateofbirth" placeholder="Date of Birth">

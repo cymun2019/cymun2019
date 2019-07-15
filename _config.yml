@@ -1,5 +1,5 @@
 # Site settings
-title: THE CBH YOUTH MODEL UNITED NATION 2019
+title: THE CBH YOUTH MODEL UNITED NATIONS 2019
 description: 'Thank you for being a part of CYMUN 2019!'
 url: 'http://cymun2019.github.io/'
 baseurl: ''
@@ -8,11 +8,9 @@ baseurl: ''
 
 author:
   name: 'Duong Tung Anh'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  email: cymun2019.official@gmail.com
+  facebook_username: 880100399042872
+  github_username:  cymun2019
 
 defaults:
   -

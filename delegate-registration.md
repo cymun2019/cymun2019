@@ -26,40 +26,7 @@ Personal Information
   <input style="display: block;" type="radio" name="englishlevel" value="Native"> Native speaker
   <button style="display: block;" type="submit">SUBMIT!</button>
 </form>
-<div class="wrapper">
-    <form>
-        <h1>Material Inputs</h1>
-        <h5>Inspired by Google's Material Design guidelines for text fields</h5>
-        <div class="btn-box"><a class="btn btn-link" href="https://material.google.com/components/text-fields.html" target="_blank">Design Docs</a></div>
-        <hr class="sep" />
-        <div class="group"><input type="text" required="required" /><span class="highlight"></span><span class="bar"></span><label>Name</label></div>
-        <div class="group"><input type="text" required="required" /><span class="highlight"></span><span class="bar"></span><label>Email</label></div>
-        <div class="group"><input type="password" required="required" /><span class="highlight"></span><span class="bar"></span><label>Password</label></div>
-        <div class="group"><input type="number" required="required" /><span class="highlight"></span><span class="bar"></span><label>Number</label></div>
-        <div class="group"><textarea type="textarea" rows="5" required="required"></textarea><span class="highlight"></span><span class="bar"></span><label>Message</label></div>
-        <div class="btn-box"><button class="btn btn-submit" type="submit">submit</button><button class="btn btn-cancel" type="button">cancel</button>
-            <h5>*these buttons do nothing <span class="emoji">&#x1F609;</span></h5>
-        </div>
-    </form>
-</div>
 <div class="container">
-  
-  <div class="demo-flex-spacer"></div>
-
-  <div class="webflow-style-input">
-    <input class="" type="email" placeholder="What's your email?"></input>
-    <button type="submit"><i class="icon ion-android-arrow-forward"></i></button>
-  </div>
-
-  <div class="demo-flex-spacer"></div>
-  <h1 class="demo">Webflow-style input</h1>
-  <a class="demo" href="https://webflow.com/cms" title="Webflow CMS">https://webflow.com/cms</a>
-
-</div>
-<div class="container">
-  
-  <h2>Google Material Design in CSS3<small>Inputs</small></h2>
-  
   <form>
     
    <div class="group">      
@@ -76,9 +43,5 @@ Personal Information
    </div>
     
   </form>
-      
-  <p class="footer">
-    a <a href="https://scotch.io/tutorials/css/google-material-design-input-boxes-in-css3" target="_blank">tutorial</a> by <a href="https://scotch.io" target="_blank">scotch.io</a>
-  </p>
   
 </div>

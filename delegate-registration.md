@@ -19,16 +19,30 @@ Personal Information
     <span class="bar"></span>
    <label>Last name</label>
    </div>
-	<label for="firstname">First Name</label>
-<input style="display: block;" type="text" id="firstname" name="firstname">
-
-<input style="display: block;" type="text" name="lastname" placeholder="Last name">
 <input style="display: block;" type="date" class="form-control" name="dateofbirth" placeholder="Date of Birth">
-  <input style="display: block;" type="email" name="email" placeholder="Your email">
-  <input style="display: block;" type="text" name="adress" placeholder="Pernament adress">
-  <input style="display: block;" type="text" name="phone" placeholder="Telephone number">
-  <input style="display: block;" type="text" name="class" placeholder="Class name">
-  <input style="display: block;" type="text" name="speciality" placeholder="Major/concentration/speciality">
+     <div class="group">      
+    <input type="email" required name="email">
+      <span class="highlight"></span>
+      <span class="bar"></span>
+     <label>Your email</label>
+   </div>
+     <div class="group">      
+    <input type="number" required name="phonenumber">
+      <span class="highlight"></span>
+      <span class="bar"></span>
+     <label>Telephone number</label>
+   </div>   
+        <div class="group">      
+    <input type="text" required name="class">
+      <span class="highlight"></span>
+      <span class="bar"></span>
+     <label>Class name</label>
+   </div>   
+       <input type="text" required name="speciality">
+      <span class="highlight"></span>
+      <span class="bar"></span>
+     <label>Major/concentration/speciality</label>
+   </div>  
   English language proficiency:
   <input style="display: block;" type="radio" name="englishlevel" value="Beginner" checked> Beginner<br>
   <input style="display: block;" type="radio" name="englishlevel" value="Intermediate"> Intermediate<br>

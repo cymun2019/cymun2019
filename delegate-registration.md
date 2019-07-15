@@ -91,7 +91,7 @@ Personal Information
 
   <!-- Radio Button Module -->
   <p>3. On a scale of 1 to 10 rate your English proficiency</p>
-  <div id="rb-1" class="rb" name="question3">
+  <div id="rb-2" class="rb" name="question3">
     <div class="rb-tab rb-tab-active" data-value="1">
       <div class="rb-spot">
         <span class="rb-txt">1</span>

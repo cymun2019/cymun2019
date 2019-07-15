@@ -7,6 +7,18 @@ robots: noindex
 <h2>Delegate Registration Form</h2>
 Personal Information
 <form method="POST" action="https://formspree.io/cymun2019.official@gmail.com">
+	   <div class="group">      
+    <input type="text" required name="firstname">
+      <span class="highlight"></span>
+      <span class="bar"></span>
+     <label>First name</label>
+   </div>
+   <div class="group">      
+    <input type="text" required name="lastname">
+    <span class="highlight"></span>
+    <span class="bar"></span>
+   <label>Last name</label>
+   </div>
 	<label for="firstname">First Name</label>
 <input style="display: block;" type="text" id="firstname" name="firstname">
 
@@ -27,21 +39,3 @@ Personal Information
   <button style="display: block;" type="submit">SUBMIT!</button>
 </form>
 <div class="container">
-  <form>
-    
-   <div class="group">      
-    <input type="text" required>
-      <span class="highlight"></span>
-      <span class="bar"></span>
-     <label>Name</label>
-   </div>
-         <div class="group">      
-     <input type="text" required>
-    <span class="highlight"></span>
-    <span class="bar"></span>
-   <label>Email</label>
-   </div>
-    
-  </form>
-  
-</div>

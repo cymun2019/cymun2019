@@ -14,4 +14,4 @@ Continuing its previous endeavor, CYMUN 2019 will also feature <strong>Delegatio
 </p>
 <a href="/delegate-registration" class="btn btn-default" style="float:left">DELEGATE REGISTRATION</a>
 <a href="/observer-registration" class="btn btn-default" style="float:right">OBSERVER REGISTRATION</a>
-
+<p> </p>

@@ -23,11 +23,4 @@ Personal Information
   <input style="display: block;" type="radio" name="englishlevel" value="Fluent"> Fluent
   <input style="display: block;" type="radio" name="englishlevel" value="Native"> Native speaker
   <button style="display: block;" type="submit">SUBMIT!</button>
-            <input id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
-          <label for="inp" class="inp">
-  <input type="text" id="inp" placeholder="&nbsp;">
-  <span class="label">Label</span>
-  <span class="border"></span>
-</label>
 </form>

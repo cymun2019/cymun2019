@@ -42,6 +42,8 @@ Personal Information
    </div>   
     <p>1. Why do you want to participate in CYMUN 2019 ? (200 words maximum)</p>
     <textarea name="question1" id="q1" rows = "5" cols = "60" placeholder="Your answer here"></textarea>
-
+   <p> 2. Which committee do you want to participate ?</p>
+<p>3. Express your viewpoints and suggest some solutions to a global issue that you pay attention to. (250 words minimum)</p>
+    <textarea name="question2" id="q2" rows = "5" cols = "60" placeholder="Your answer here"></textarea>
 <button style="display: block;" type="submit">SUBMIT!</button>
 </form>

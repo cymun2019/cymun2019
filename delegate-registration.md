@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Delegate Registration
-permalink: /delegate-registration/
+permalink: /delegate-registration2/
 robots: noindex
 ---
 <h2>Delegate Registration Form</h2>

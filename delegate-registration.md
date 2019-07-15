@@ -8,7 +8,8 @@ robots: noindex
 <h2>Delegate Registration Form</h2>
 Personal Information
 <form method="POST" action="https://formspree.io/cymun2019.official@gmail.com">
-<input style="display: block;" type="text" name="firstname" placeholder="First name">
+<input style="display: block;" type="text" id="firstname" name="firstname">
+<label for="firstname">First Name</label>
 <input style="display: block;" type="text" name="lastname" placeholder="Last name">
 <input style="display: block;" type="date" class="form-control" name="dateofbirth" placeholder="Date of Birth">
   <input style="display: block;" type="email" name="email" placeholder="Your email">

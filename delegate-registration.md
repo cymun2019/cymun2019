@@ -4,6 +4,11 @@ title: Delegate Registration
 permalink: /delegate-registration/
 robots: noindex
 ---
+      <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <h2>Delegate Registration Form</h2>
 Personal Information
 <form method="POST" action="https://formspree.io/cymun2019.official@gmail.com">

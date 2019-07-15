@@ -53,8 +53,6 @@ Personal Information
 </div>
 <p style="margin-top:30;">3. Express your viewpoints and suggest some solutions to a global issue that you pay attention to. (250 words minimum)</p>
     <textarea name="question3" id="q3" rows = "5" cols = "50" placeholder="Your answer here"></textarea>
-    <div class="box">
-  <a href="#" type="submit" class="btn btn-white btn-animation-1">Hover Over Me</a> 
-</div>
+<a href="/delegate-registration" class="btn btn-default" style="margin-bottom: 10">DELEGATE REGISTRATION FORM (OPENING)</a>
 <button style="display: block;" class="btn btn-white btn-animation-1" type="submit">SUBMIT!</button>
 </form>

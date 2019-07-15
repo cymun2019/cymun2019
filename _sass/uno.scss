@@ -2100,7 +2100,7 @@ input:focus ~ .highlight {
 }
 
 .select-selected {
-  background-color: DodgerBlue;
+  background-color: LightGray;
 }
 
 /* Style the arrow inside the select element: */
@@ -2133,7 +2133,7 @@ input:focus ~ .highlight {
 /* Style items (options): */
 .select-items {
   position: absolute;
-  background-color: DodgerBlue;
+  background-color: LightGray;
   top: 100%;
   left: 0;
   right: 0;

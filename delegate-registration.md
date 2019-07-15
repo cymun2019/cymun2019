@@ -43,7 +43,7 @@ Personal Information
     <p>1. Why do you want to participate in CYMUN 2019 ? (200 words maximum)</p>
     <textarea name="question1" id="q1" rows = "5" cols = "50" placeholder="Your answer here"></textarea>
    <p> 2. Which committee do you want to participate ?</p>
-<div class="custom-select" style="width:370px;">
+<div class="custom-select" style="width:370px; margin-bottom:30;" >
   <select name="question2">
     <option value="0" name="0">Select committee:</option>
     <option value="1" name="SOCHUM">United Nations General Assembly Third Committee - SOCHUM</option>
@@ -53,5 +53,8 @@ Personal Information
 </div>
 <p style="margin-top:30;">3. Express your viewpoints and suggest some solutions to a global issue that you pay attention to. (250 words minimum)</p>
     <textarea name="question3" id="q3" rows = "5" cols = "50" placeholder="Your answer here"></textarea>
+    <div class="box">
+  <a href="#" type="submit" class="btn btn-white btn-animation-1">Hover Over Me</a> 
+</div>
 <button style="display: block;" type="submit">SUBMIT!</button>
 </form>

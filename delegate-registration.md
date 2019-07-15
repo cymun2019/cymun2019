@@ -38,41 +38,29 @@ Personal Information
   <input style="display: block;" type="radio" name="englishlevel" value="Native"> Native speaker
   <button style="display: block;" type="submit">SUBMIT!</button>
 </form>
-<form class="form">
+<div class="cntr">
   
-<form class="form">
+  <label for="opt1" class="radio">
+    <input type="radio" name="rdo" id="opt1" class="hidden"/>
+    <span class="label"></span>Adobe
+  </label>
   
-  <h2>Checkboxes</h2>
-  <div class="inputGroup">
-    <input id="option1" name="option1" type="checkbox"/>
-    <label for="option1">Option One</label>
-  </div>
+  <label for="opt2" class="radio">
+    <input type="radio" name="rdo" id="opt2" class="hidden"/>
+    <span class="label"></span>Figma
+  </label>
   
-  <div class="inputGroup">
-    <input id="option2" name="option2" type="checkbox"/>
-    <label for="option2">Option Two</label>
-  </div>
+  <label for="opt3" class="radio">
+    <input type="radio" name="rdo" id="opt3" class="hidden"/>
+    <span class="label"></span>InVision
+  </label>
   
-  <h2>Radio Buttons</h2>
-  <div class="inputGroup">
-    <input id="radio1" name="radio" type="radio"/>
-    <label for="radio1">Yes</label>
-  </div>
-  <div class="inputGroup">
-    <input id="radio2" name="radio" type="radio"/>
-    <label for="radio2">No</label>
-  </div>
-</form>
-
-<div style="max-width: 600px; margin: 24px auto;">
+  <label for="opt4" class="radio">
+    <input type="radio" name="rdo" id="opt4" class="hidden"/>
+    <span class="label"></span>Sketch
+  </label>
   
-   <p>The trick to this is placing the label after the checkbox. That way you can use the <code>:checked</code> state to toggle the different pseudo elements on the label. No javascript necessary.</p>
-  <p>To make the background animation work, you'll need a tiny bit of magic. The <code>label:before</code> element is a small 10x10 circle. We animate the scale of it instead of the size so that we can keep the proportion of the circle and make it look like it "fills out" the bar.</p>
-  <p>The max width of the form is set to 550px. The <code>:before</code> element animates by using scale3d (for hardware acceleration) by 56 times. 56 * 10 === 560. This allows the circle to fill out the bar by going slightly outside the bounds of the input group container.</p>
-  
-  <p>Caveat: as you shrink the form, if you don't adjust the scale value, the animation will look faster and less clean. As you design for smaller devices, add a few break points to adjust the scale amount to your liking.</p>
 </div>
 
-
-
-<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+<!-- dribbble -->
+<a class="credit" href="https://dribbble.com/shots/4647673-Material-Design-Radio-Buttons" target="_blank"><img src="https://cdn.dribbble.com/assets/logo-footer-hd-a05db77841b4b27c0bf23ec1378e97c988190dfe7d26e32e1faea7269f9e001b.png" alt=""></a>

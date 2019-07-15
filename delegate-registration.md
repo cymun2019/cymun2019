@@ -8,21 +8,15 @@ robots: noindex
 Personal Information
 <form method="POST" action="https://formspree.io/cymun2019.official@gmail.com">
 	   <div class="group">      
-    <input type="text" required name="firstname">
+    <input type="text" required name="fullname">
       <span class="highlight"></span>
       <span class="bar"></span>
-     <label>First name</label>
+     <label>Full name</label>
    </div>
-   <div class="group">      
-    <input type="text" required name="lastname">
-    <span class="highlight"></span>
-    <span class="bar"></span>
-   <label>Last name</label>
-   </div>
-   <label for="dateofbirth">Date of birth</label>
-<input type="date" class="form-control" id="dateofbirth" name="dateofbirth" placeholder="Date of Birth">
+ <label for="dateofbirth">Date of birth</label>
+<input type="date" class="form-control" id="dateofbirth" name="dateofbirth" placeholder="Date of Birth" style="margin-bottom: 20">
      <div class="group">      
-    <input type="email" required name="email">
+    <input type="text" required name="email">
       <span class="highlight"></span>
       <span class="bar"></span>
      <label>Your email</label>
@@ -39,18 +33,12 @@ Personal Information
       <span class="bar"></span>
      <label>Class name</label>
    </div>   
-   <div class="group">  
-       <input type="text" required name="speciality">
+        <div class="group">      
+    <textarea name="question1">Your answer here</textarea>
       <span class="highlight"></span>
       <span class="bar"></span>
-     <label>Major/concentration/speciality</label>
-   </div>  
-  English language proficiency:
-  <input style="display: block;" type="radio" name="englishlevel" value="Beginner" checked> Beginner<br>
-  <input style="display: block;" type="radio" name="englishlevel" value="Intermediate"> Intermediate<br>
-  <input style="display: block;" type="radio" name="englishlevel" value="upper"> Upper-Intermediate
-  <input style="display: block;" type="radio" name="englishlevel" value="Advanced"> Advanced
-  <input style="display: block;" type="radio" name="englishlevel" value="Fluent"> Fluent
-  <input style="display: block;" type="radio" name="englishlevel" value="Native"> Native speaker
-  <button style="display: block;" type="submit">SUBMIT!</button>
+     <label>1. Why do you want to participate in CYMUN 2019 ? (200 words maximum)</label>
+   </div>   
+
+<button style="display: block;" type="submit">SUBMIT!</button>
 </form>

@@ -38,4 +38,26 @@ Personal Information
   <input style="display: block;" type="radio" name="englishlevel" value="Native"> Native speaker
   <button style="display: block;" type="submit">SUBMIT!</button>
 </form>
-<div class="container">
+<form class="form">
+  
+  <h2>Checkboxes</h2>
+  <div class="inputGroup">
+    <input id="option1" name="option1" type="checkbox"/>
+    <label for="option1">Option One</label>
+  </div>
+  
+  <div class="inputGroup">
+    <input id="option2" name="option2" type="checkbox"/>
+    <label for="option2">Option Two</label>
+  </div>
+  
+  <h2>Radio Buttons</h2>
+  <div class="inputGroup">
+    <input id="radio1" name="radio" type="radio"/>
+    <label for="radio1">Yes</label>
+  </div>
+  <div class="inputGroup">
+    <input id="radio2" name="radio" type="radio"/>
+    <label for="radio2">No</label>
+  </div>
+</form>

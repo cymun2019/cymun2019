@@ -24,3 +24,19 @@ Personal Information
   <input style="display: block;" type="radio" name="englishlevel" value="Native"> Native speaker
   <button style="display: block;" type="submit">SUBMIT!</button>
 </form>
+<div class="wrapper">
+    <form>
+        <h1>Material Inputs</h1>
+        <h5>Inspired by Google's Material Design guidelines for text fields</h5>
+        <div class="btn-box"><a class="btn btn-link" href="https://material.google.com/components/text-fields.html" target="_blank">Design Docs</a></div>
+        <hr class="sep" />
+        <div class="group"><input type="text" required="required" /><span class="highlight"></span><span class="bar"></span><label>Name</label></div>
+        <div class="group"><input type="text" required="required" /><span class="highlight"></span><span class="bar"></span><label>Email</label></div>
+        <div class="group"><input type="password" required="required" /><span class="highlight"></span><span class="bar"></span><label>Password</label></div>
+        <div class="group"><input type="number" required="required" /><span class="highlight"></span><span class="bar"></span><label>Number</label></div>
+        <div class="group"><textarea type="textarea" rows="5" required="required"></textarea><span class="highlight"></span><span class="bar"></span><label>Message</label></div>
+        <div class="btn-box"><button class="btn btn-submit" type="submit">submit</button><button class="btn btn-cancel" type="button">cancel</button>
+            <h5>*these buttons do nothing <span class="emoji">&#x1F609;</span></h5>
+        </div>
+    </form>
+</div>

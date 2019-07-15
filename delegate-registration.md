@@ -38,6 +38,7 @@ Personal Information
       <span class="bar"></span>
      <label>Class name</label>
    </div>   
+   <div class="group">  
        <input type="text" required name="speciality">
       <span class="highlight"></span>
       <span class="bar"></span>

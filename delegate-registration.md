@@ -34,7 +34,7 @@ Personal Information
      <label>Class name</label>
    </div>   
     <label>1. Why do you want to participate in CYMUN 2019 ? (200 words maximum)</label>
-    <textarea name="question1">Your answer here</textarea>
+    <textarea name="question1" rows = "3" cols = "80">Your answer here</textarea>
 
    </div>   
 

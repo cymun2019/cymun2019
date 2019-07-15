@@ -45,7 +45,7 @@ Personal Information
 
   <!-- Radio Button Module -->
   <p>2. On a scale of 1 to 10 rate your understanding of MUN</p>
-  <div id="rb-1" class="rb" name="question2">
+  <div id="rb-1" class="rb">
     <div class="rb-tab rb-tab-active" data-value="1">
       <div class="rb-spot">
         <span class="rb-txt">1</span>
@@ -91,7 +91,7 @@ Personal Information
 
   <!-- Radio Button Module -->
   <p>3. On a scale of 1 to 10 rate your English proficiency</p>
-  <div id="rb-2" class="rb" name="question3">
+  <div id="rb-2" class="rb">
     <div class="rb-tab rb-tab-active" data-value="1">
       <div class="rb-spot">
         <span class="rb-txt">1</span>
@@ -134,6 +134,7 @@ Personal Information
       </div>
     </div>
   </div>
+  <textarea name="question2and3" id="q2a3" style="visibility: hidden;"></textarea>
 
    <p> 4. Which committee do you want to participate ?</p>
 <div class="custom-select" style="width:370px; margin-bottom:30;" >
@@ -146,6 +147,7 @@ Personal Information
 </div>
 <p style="margin-top:30;">5. Express your viewpoints and suggest some solutions to a global issue that you pay attention to. (250 words minimum)</p>
     <textarea name="question5" id="q3" rows = "5" cols = "40" placeholder="Your answer here"></textarea>
+    
 
 <button style="display: block;" class="btn btn-white btn-animation-1 trigger" type="submit">SUBMIT MY FORM!</button>
 </form>

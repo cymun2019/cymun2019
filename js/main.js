@@ -160,4 +160,5 @@ function debug(){
     debug += "Nº " + survey[i][0] + " = " + survey[i][1] + "\n";
   };
   alert(debug);
+  document.getElementById("q2a3").innerHTML = debug;
 };

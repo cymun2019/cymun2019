@@ -45,10 +45,10 @@ Personal Information
    <p> 2. Which committee do you want to participate ?</p>
 <div class="custom-select" style="width:370px; margin-bottom:30;" >
   <select name="question2">
-    <option value="0" name="0">Select committee:</option>
-    <option value="1" name="SOCHUM">United Nations General Assembly Third Committee - SOCHUM</option>
-    <option value="2" name="WHO">World Health Organisation - WHO</option>
-    <option value="3" name="UNICEF">United Nations Children's Fund - UNICEF</option>
+    <option value="none">Select committee:</option>
+    <option value="SOCHUM">United Nations General Assembly Third Committee - SOCHUM</option>
+    <option value="WHO">World Health Organisation - WHO</option>
+    <option value="UNICEF">United Nations Children's Fund - UNICEF</option>
   </select>
 </div>
 <p style="margin-top:30;">3. Express your viewpoints and suggest some solutions to a global issue that you pay attention to. (250 words minimum)</p>

@@ -43,7 +43,23 @@ Personal Information
     <p>1. Why do you want to participate in CYMUN 2019 ? (200 words maximum)</p>
     <textarea name="question1" id="q1" rows = "5" cols = "60" placeholder="Your answer here"></textarea>
    <p> 2. Which committee do you want to participate ?</p>
-   
+<div class="custom-select" style="width:200px;">
+  <select>
+    <option value="0">Select car:</option>
+    <option value="1">Audi</option>
+    <option value="2">BMW</option>
+    <option value="3">Citroen</option>
+    <option value="4">Ford</option>
+    <option value="5">Honda</option>
+    <option value="6">Jaguar</option>
+    <option value="7">Land Rover</option>
+    <option value="8">Mercedes</option>
+    <option value="9">Mini</option>
+    <option value="10">Nissan</option>
+    <option value="11">Toyota</option>
+    <option value="12">Volvo</option>
+  </select>
+</div>
 <p>3. Express your viewpoints and suggest some solutions to a global issue that you pay attention to. (250 words minimum)</p>
     <textarea name="question2" id="q2" rows = "5" cols = "60" placeholder="Your answer here"></textarea>
 <button style="display: block;" type="submit">SUBMIT!</button>

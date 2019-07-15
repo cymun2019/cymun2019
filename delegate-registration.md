@@ -38,7 +38,6 @@ Personal Information
   <input style="display: block;" type="radio" name="englishlevel" value="Native"> Native speaker
   <button style="display: block;" type="submit">SUBMIT!</button>
 </form>
-<<<<<<< HEAD
 <div class="cntr">
   
   <label for="opt1" class="radio">

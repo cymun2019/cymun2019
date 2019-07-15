@@ -13,8 +13,9 @@ Personal Information
       <span class="bar"></span>
      <label>Full name</label>
    </div>
- <label for="dateofbirth">Date of birth</label>
+ <p>Date of birth</p>
 <input type="date" class="form-control" id="dateofbirth" name="dateofbirth" placeholder="Date of Birth" style="margin-bottom: 50">
+<p> </p>
      <div class="group" style="margin-top: 50">      
     <input type="text" required name="email">
       <span class="highlight"></span>

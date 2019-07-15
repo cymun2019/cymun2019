@@ -2180,7 +2180,20 @@ input:focus ~ .highlight {
   font-weight: 600;
   line-height: 36px;
 }
+body {
+  background-color: #D1D7DC;
+  font-family: 'Fira Sans', sans-serif;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
 
 code {
   background-color: #9AA3AC;

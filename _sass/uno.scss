@@ -2159,34 +2159,6 @@ $radioActive: #5D9BFB;
     }
 }
 
-// Center & twitter
-body {
-    min-height: 100vh;
-    font-family: Roboto, Arial;
-    color: #ADAFB6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .twitter {
-        position: fixed;
-        display: block;
-        right: 24px;
-        bottom: 24px;
-        opacity: .5;
-        color: #212533;
-        text-decoration: none;
-        font-weight: 500;
-        transition: all .4s ease;
-        &:hover {
-            opacity: 1;
-        }
-        img {
-            display: block;
-            height: 36px;
-        }
-    }
-}
-
 
 @media all and (min-width: 1300px) {
 	.content-wrapper {

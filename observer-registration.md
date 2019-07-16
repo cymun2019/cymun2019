@@ -33,7 +33,7 @@ Personal Information
     <input type="text" required name="facebook">
       <span class="highlight"></span>
       <span class="bar"></span>
-     <label>Facebook profile link (Example: http://facebook.com/tunnaduong)</label>
+     <label>Facebook profile link</label>
    </div>
      <div class="group">      
     <input type="number" required name="phonenumber">

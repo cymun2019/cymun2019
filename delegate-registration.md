@@ -29,6 +29,12 @@ Personal Information
       <span class="bar"></span>
      <label>Your email</label>
    </div>
+        <div class="group">      
+    <input type="text" required name="facebook">
+      <span class="highlight"></span>
+      <span class="bar"></span>
+     <label>Facebook profile link</label>
+   </div>
      <div class="group">      
     <input type="number" required name="phonenumber">
       <span class="highlight"></span>

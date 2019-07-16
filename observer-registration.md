@@ -30,10 +30,10 @@ Personal Information
      <label>Your email</label>
    </div>
      <div class="group">      
-    <input type="text" required name="facebook" placeholder="https://facebook.com/yourusername/">
+    <input type="text" required name="facebook">
       <span class="highlight"></span>
       <span class="bar"></span>
-     <label>Facebook profile link</label>
+     <label>Facebook profile link (Example: http://facebook.com/tunnaduong)</label>
    </div>
      <div class="group">      
     <input type="number" required name="phonenumber">

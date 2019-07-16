@@ -12,3 +12,4 @@ To participate in CYMUN 2019, applicants will need to fill out all the informati
 </p>
 <a href="/delegate-registration" class="btn btn-default" style="margin-bottom: 10">DELEGATE REGISTRATION FORM (OPENING)</a>
 <p> </p>
+<a href="/observer-registration" class="btn btn-default" style="margin-bottom: 10">OBSERVER REGISTRATION FORM (OPENING)</a>

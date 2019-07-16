@@ -51,7 +51,9 @@ Personal Information
     <textarea name="Question 1" id="q1" rows = "5" cols = "40" placeholder="Your answer here"></textarea> 
 
   <!-- Radio Button Module -->
-  <p>2. On a scale of 1 to 10 rate your understanding of MUN</p>
+  <p style="
+    margin-top: 47px;
+">2. On a scale of 1 to 10 rate your understanding of MUN</p>
   <div id="rb-1" class="rb ex1">
     <div class="rb-tab rb-tab-active" data-value="1">
       <div class="rb-spot">
@@ -97,7 +99,9 @@ Personal Information
   </div>
 
   <!-- Radio Button Module -->
-  <p>3. On a scale of 1 to 10 rate your English proficiency</p>
+  <p style="
+    margin-top: 42px;
+">3. On a scale of 1 to 10 rate your English proficiency</p>
   <div id="rb-2" class="rb ex1">
     <div class="rb-tab rb-tab-active" data-value="1">
       <div class="rb-spot">
@@ -144,7 +148,7 @@ Personal Information
   <textarea name="Question 2 and 3" id="q2a3" style="visibility: hidden;"></textarea>
 
    <p> 4. Which committee do you want to participate ?</p>
-<div class="custom-select" style="width:340px; margin-bottom:30;" >
+<div class="custom-select" style="width:340px; margin-bottom:22px;" >
   <select name="Question 4">
     <option value="none">Select committee:</option>
     <option value="SOCHUM">Social, Humanitarian & Cultural Issues (Third Committee) - SOCHUM</option>
@@ -156,5 +160,5 @@ Personal Information
     <textarea name="Question 5" id="q3" rows = "5" cols = "40" placeholder="Your answer here"></textarea>
     
 
-<button style="display: block;" class="btn btn-white btn-animation-1 trigger" type="submit">SUBMIT MY FORM!</button>
+<button style="display: block;margin-top: 34px;" class="btn btn-white btn-animation-1 trigger" type="submit">SUBMIT MY FORM!</button>
 </form>

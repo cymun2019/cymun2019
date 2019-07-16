@@ -7,16 +7,16 @@ robots: noindex
 <h2>Observer Registration Form</h2>
 Personal Information
 <form method="POST" action="https://formspree.io/cymun2019.official@gmail.com">
-  <textarea name="delegate or observer?" style="visibility: hidden;">OBSERVER</textarea>
+  <textarea name="Delegate or Observer?" style="visibility: hidden;">OBSERVER</textarea>
 	   <div class="group">      
-    <input type="text" required name="fullname">
+    <input type="text" required name="Full name">
       <span class="highlight"></span>
       <span class="bar"></span>
      <label>Full name</label>
    </div>
 
    <div class="group">      
-<input type="date" class="form-control" id="dateofbirth" name="dateofbirth" placeholder="Date of Birth">
+<input type="date" class="form-control" id="Date of birth" name="dateofbirth" placeholder="Date of Birth">
       <span class="highlight"></span>
       <span class="bar"></span>
      <label>Date of birth</label>
@@ -24,25 +24,25 @@ Personal Information
 
 
   <div class="group" style="margin-top: 50">      
-    <input type="text" required name="email">
+    <input type="text" required name="Email">
       <span class="highlight"></span>
       <span class="bar"></span>
      <label>Your email</label>
    </div>
      <div class="group">      
-    <input type="text" required name="facebook">
+    <input type="text" required name="Facebook link">
       <span class="highlight"></span>
       <span class="bar"></span>
      <label>Facebook profile link</label>
    </div>
      <div class="group">      
-    <input type="number" required name="phonenumber">
+    <input type="number" required name="Phone number">
       <span class="highlight"></span>
       <span class="bar"></span>
      <label>Telephone number</label>
    </div>   
         <div class="group">      
-    <input type="text" required name="class">
+    <input type="text" required name="Class">
       <span class="highlight"></span>
       <span class="bar"></span>
      <label>Class name</label>

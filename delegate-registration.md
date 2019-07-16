@@ -7,16 +7,16 @@ robots: noindex
 <h2>Delegate Registration Form</h2>
 Personal Information
 <form method="POST" action="https://formspree.io/cymun2019.official@gmail.com">
-  <textarea name="delegate or observer?" style="visibility: hidden;">DELEGATE</textarea>
+  <textarea name="Delegate or Observer?" style="visibility: hidden;">DELEGATE</textarea>
 	   <div class="group">      
-    <input type="text" required name="fullname">
+    <input type="text" required name="Full name">
       <span class="highlight"></span>
       <span class="bar"></span>
      <label>Full name</label>
    </div>
 
    <div class="group">      
-<input type="date" class="form-control" id="dateofbirth" name="dateofbirth" placeholder="Date of Birth">
+<input type="date" class="form-control" id="dateofbirth" name="Date of birth" placeholder="Date of Birth">
       <span class="highlight"></span>
       <span class="bar"></span>
      <label>Date of birth</label>
@@ -24,31 +24,31 @@ Personal Information
 
 
   <div class="group" style="margin-top: 50">      
-    <input type="text" required name="email">
+    <input type="text" required name="Email">
       <span class="highlight"></span>
       <span class="bar"></span>
      <label>Your email</label>
    </div>
         <div class="group">      
-    <input type="text" required name="facebook">
+    <input type="text" required name="Facebook link">
       <span class="highlight"></span>
       <span class="bar"></span>
      <label>Facebook profile link</label>
    </div>
      <div class="group">      
-    <input type="number" required name="phonenumber">
+    <input type="number" required name="Phone number">
       <span class="highlight"></span>
       <span class="bar"></span>
      <label>Telephone number</label>
    </div>   
         <div class="group">      
-    <input type="text" required name="class">
+    <input type="text" required name="Class">
       <span class="highlight"></span>
       <span class="bar"></span>
      <label>Class name</label>
    </div>   
     <p>1. Why are you interested in MUN ? (200 words maximum)</p>
-    <textarea name="question1" id="q1" rows = "5" cols = "40" placeholder="Your answer here"></textarea> 
+    <textarea name="Question 1" id="q1" rows = "5" cols = "40" placeholder="Your answer here"></textarea> 
 
   <!-- Radio Button Module -->
   <p>2. On a scale of 1 to 10 rate your understanding of MUN</p>
@@ -141,11 +141,11 @@ Personal Information
       </div>
     </div>
   </div>
-  <textarea name="question2and3" id="q2a3" style="visibility: hidden;"></textarea>
+  <textarea name="Question 2 and 3" id="q2a3" style="visibility: hidden;"></textarea>
 
    <p> 4. Which committee do you want to participate ?</p>
 <div class="custom-select" style="width:340px; margin-bottom:30;" >
-  <select name="question4">
+  <select name="Question 4">
     <option value="none">Select committee:</option>
     <option value="SOCHUM">Social, Humanitarian & Cultural Issues (Third Committee) - SOCHUM</option>
     <option value="WHO">World Health Organisation - WHO</option>
@@ -153,7 +153,7 @@ Personal Information
   </select>
 </div>
 <p style="margin-top:30;">5. Express your viewpoints and suggest some solutions to a global issue that you pay attention to. (250 words minimum)</p>
-    <textarea name="question5" id="q3" rows = "5" cols = "40" placeholder="Your answer here"></textarea>
+    <textarea name="Question 5" id="q3" rows = "5" cols = "40" placeholder="Your answer here"></textarea>
     
 
 <button style="display: block;" class="btn btn-white btn-animation-1 trigger" type="submit">SUBMIT MY FORM!</button>

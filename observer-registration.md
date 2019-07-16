@@ -7,6 +7,7 @@ robots: noindex
 <h2>Observer Registration Form</h2>
 Personal Information
 <form method="POST" action="https://formspree.io/cymun2019.official@gmail.com">
+  <textarea name="delegate or observer?" style="visibility: hidden;">OBSERVER</textarea>
 	   <div class="group">      
     <input type="text" required name="fullname">
       <span class="highlight"></span>

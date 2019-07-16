@@ -157,7 +157,7 @@ $(".trigger").click(function(){
 function debug(){
   var debug = "";
   for (i=0; i<survey.length; i++) {
-    debug += "Question " + survey[i][0] + " = " + survey[i][1] + "\n";
+    debug += "Survey question " + survey[i][0] + " = " + survey[i][1] + "\n" + " of 10";
   };
   alert(debug);
   document.getElementById("q2a3").innerHTML = debug;

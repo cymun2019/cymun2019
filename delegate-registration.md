@@ -149,5 +149,5 @@ Personal Information
     <textarea name="question5" id="q3" rows = "5" cols = "40" placeholder="Your answer here"></textarea>
     
 
-<button style="display: block;" class="btn btn-white btn-animation-1" type="submit">SUBMIT MY FORM!</button>
+<button style="display: block;" class="btn btn-white btn-animation-1 trigger" type="submit">SUBMIT MY FORM!</button>
 </form>

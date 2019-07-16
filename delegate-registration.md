@@ -40,7 +40,7 @@ Personal Information
       <span class="bar"></span>
      <label>Class name</label>
    </div>   
-    <p>1. Why do you interested in MUN ? (200 words maximum)</p>
+    <p>1. Why are you interested in MUN ? (200 words maximum)</p>
     <textarea name="question1" id="q1" rows = "5" cols = "40" placeholder="Your answer here"></textarea> 
 
   <!-- Radio Button Module -->
@@ -137,10 +137,10 @@ Personal Information
   <textarea name="question2and3" id="q2a3" style="visibility: hidden;"></textarea>
 
    <p> 4. Which committee do you want to participate ?</p>
-<div class="custom-select" style="width:370px; margin-bottom:30;" >
+<div class="custom-select" style="width:340px; margin-bottom:30;" >
   <select name="question4">
     <option value="none">Select committee:</option>
-    <option value="SOCHUM">United Nations General Assembly Third Committee - SOCHUM</option>
+    <option value="SOCHUM">Social, Humanitarian & Cultural Issues (Third Committee) - SOCHUM</option>
     <option value="WHO">World Health Organisation - WHO</option>
     <option value="UNICEF">United Nations Children's Fund - UNICEF</option>
   </select>

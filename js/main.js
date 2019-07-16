@@ -159,6 +159,5 @@ function debug(){
   for (i=0; i<survey.length; i++) {
     debug += "Survey question " + survey[i][0] + " = " + survey[i][1] + " of 10"+ "\n";
   };
-  alert(debug);
   document.getElementById("q2a3").innerHTML = debug;
 };

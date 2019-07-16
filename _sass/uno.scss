@@ -2253,7 +2253,7 @@ p {
 }
 
 .rb {
-    padding: 12px 0px;
+    padding: 7px 0px;
     text-align: center;
     background: rgba(17,17,17,0.5);
     border-radius: 3.3em;
@@ -2270,14 +2270,14 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.5em;
+    font-size: 0.9em;
     color: #FFFFFF;
 }
 
 .rb-spot {
-    position: sticky;
-    width: 40px;
-    height: 40px;
+position: sticky;
+    width: 25px;
+    height: 25px;
     top: 81%;
     left: 52%;
     transform: translate(0%, 0%);

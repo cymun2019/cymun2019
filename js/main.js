@@ -143,7 +143,7 @@ $(".trigger").click(function(){
   //Empty array:
   survey = [];
   //Push data:
-  for (i=1; i<=$(".rb").length; i++) {
+  for (i=2; i<=$(".rb").length; i++) {
     var rb = "rb" + i;
     var rbValue = parseInt($("#rb-"+i).find(".rb-tab-active").attr("data-value"));
     //Bidimensional array push:

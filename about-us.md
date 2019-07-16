@@ -5,7 +5,7 @@ permalink: /about-us/
 robots: noindex
 ---
 <h2>About Us</h2>
-<div style="float: left;">
+<div>
 <strong>WHAT IS CYMUN?</strong>
 <p>
 First and foremost, CYMUN’s organizers would like to send the warmest greeting to all the students of Bien Hoa Specialized High School, Ha Nam. After a long time of nurturing with practical experiences as well as the desire to contribute to the school's activities, we have made the decision to establish CYMUN - Chuyen Bien Hoa Youth Model United Nations.
@@ -14,7 +14,7 @@ This past summer, we had the opportunity to attend various MUN conferences and w
 In order to provide the school's students with a useful playground after stressful lessons, CYMUN has been established and is more than eager to welcome the first members of the family. Please stay tuned and wait for our next information!
 </p>
 </div>
-<div style="float: right;">
+<div>
 <strong>CYMUN LÀ GÌ?</strong>
 <p>
 Lời đầu tiên, BTC CYMUN muốn gửi một lời chào thân thương nhất đến tất cả những bạn học sinh của trường THPT Chuyên Biên Hòa, Hà Nam. Sau một thời gian dài ấp ủ cùng với những trải nghiệm thực tế cũng như mong muốn đóng góp cho hoạt động của trường, chúng mình đi đến quyết định thành lập CYMUN - Chuyen Bien Hoa Youth Model United Nations.

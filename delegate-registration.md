@@ -151,7 +151,7 @@ Personal Information
 <div class="custom-select" style="width:340px; margin-bottom:22px;" >
   <select name="Question 4">
     <option value="none">Select committee:</option>
-    <option value="SOCHUM">Social, Humanitarian & Cultural Issues (Third Committee) - SOCHUM</option>
+    <option value="SOCHUM">Social, Humanitarian & Cultural Committee  (Third Committee) - SOCHUM</option>
     <option value="WHO">World Health Organisation - WHO</option>
     <option value="UNICEF">United Nations Children's Fund - UNICEF</option>
   </select>

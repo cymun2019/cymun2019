@@ -5,6 +5,8 @@ permalink: /observer-registration/
 robots: noindex
 ---
 <h2>Observer Registration Form</h2>
+<p>Sorry! This form is now closed due to large number of registration.</p>
+<div style="visibility: hidden;">
 Personal Information
 <form method="POST" action="https://formspree.io/cymun2019.official@gmail.com">
   <textarea name="Delegate or Observer?" style="visibility: hidden;">OBSERVER</textarea>
@@ -51,3 +53,4 @@ Personal Information
 
 <button style="display: block;" class="btn btn-white btn-animation-1 trigger" type="submit">SUBMIT MY FORM!</button>
 </form>
+</div>

@@ -6,7 +6,7 @@ robots: noindex
 ---
 <h2>Observer Registration Form</h2>
 <p>Sorry! This form is now closed due to large number of registration.</p>
-<a href="/delegate-registration" class="btn btn-default" style="margin-bottom: 10">< BACK TO REGISTRATION POLICY</a>
+<a href="/registration" class="btn btn-default" style="margin-bottom: 10">< BACK TO REGISTRATION POLICY</a>
 <div style="visibility: hidden;">
 Personal Information
 <form method="POST" action="https://formspree.io/cymun2019.official@gmail.com">

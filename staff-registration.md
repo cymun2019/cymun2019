@@ -49,11 +49,11 @@ Thông tin cá nhân
    </div>   
      <p>Bạn dự định vào ban nào ?</p>
 <div class="custom-select" style="width:340px; margin-bottom:22px;" >
-  <select name="Ban">
+  <select name="Ban" id="select1">
     <option value="none">Chọn ban:</option>
     <option value="Media">Ban media</option>
     <option value="Design">Ban design</option>
-    <option value="Nội dung" onclick="cauhoibannoidung()">Ban nội dung</option>
+    <option value="4">Ban nội dung</option>
     <option value="Tài chính">Ban tài chính</option>
     <option value="Đối ngoại">Ban đối ngoại</option>
     <option value="Truyền thông">Ban truyền thông</option>
@@ -63,12 +63,36 @@ Thông tin cá nhân
 <p>Câu hỏi ban nội dung: Express your opinions on a global issue and suggest some solutions to it?</p>
   <textarea name="Câu hỏi ban nội dung"></textarea>
 </div>
+<br>
 
-<script>
-function cauhoibannoidung() {
+<SCRIPT>
+
+function message() {
+
+var s = document.getElementById('select1');
+var item1 = s.options[s.selectedIndex].value;
+var item2 = document.getElementById('bannoidung').style.visibility;
+
+if (item1 == 4) {
+document.getElementById("check_fail").style.visibility = "visible"; 
   document.getElementById("bannoidung").style.visibility = "visible";
+if (item2 == "visible") {
+document.getElementById("check_fail").style.visibility = "hidden"; 
+document.getElementById("check_done").style.visibility = "visible"; 
+document.getElementById("button2").style.visibility = "visible"; 
+document.getElementById("button").style.visibility = "hidden";
 }
-</script>
+}
+else {
+document.getElementById("check_done").style.visibility = "visible"; 
+document.getElementById("button2").style.visibility = "visible"; 
+document.getElementById("button").style.visibility = "hidden"; 
+}
+}
 
-<button style="display: block;" class="btn btn-white btn-animation-1 trigger" type="submit">GỬI ĐƠN!</button>
+</SCRIPT>
+<p style="visibility: hidden; color: green;" id="check_done">Đơn của bạn hợp lệ và sẵn sàng để gửi!</p>
+<p style="visibility: hidden; color: red;" id="check_fail">Đơn của bạn chưa sẵn sàng để gửi! Vui lòng trả lời câu hỏi dành cho phần ban nội dung.</p>
+<button style="visibility: hidden;" class="btn btn-white btn-animation-1 trigger" type="submit" id="button2">GỬI ĐƠN!</button>
 </form>
+<button style="display: block;" class="btn btn-white btn-animation-1" id="button" onclick="message()">CHECK LẠI ĐƠN</button>

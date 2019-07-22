@@ -52,6 +52,7 @@ Thông tin cá nhân
   <select name="Ban">
     <option value="none">Chọn ban:</option>
     <option value="Media">Ban media</option>
+    <option value="Media">Ban design</option>
     <option value="Tài chính">Ban tài chính</option>
     <option value="Đối ngoại">Ban đối ngoại</option>
     <option value="Truyền thông">Ban truyền thông</option>

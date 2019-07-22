@@ -52,12 +52,23 @@ Thông tin cá nhân
   <select name="Ban">
     <option value="none">Chọn ban:</option>
     <option value="Media">Ban media</option>
-    <option value="Media">Ban design</option>
+    <option value="Design">Ban design</option>
+    <option value="Nội dung" onclick="cauhoibannoidung()">Ban nội dung</option>
     <option value="Tài chính">Ban tài chính</option>
     <option value="Đối ngoại">Ban đối ngoại</option>
     <option value="Truyền thông">Ban truyền thông</option>
   </select>
 </div>
+<div id="bannoidung" style="visibility: hidden;">
+<p>Câu hỏi ban nội dung: Express your opinions on a global issue and suggest some solutions to it?</p>
+  <textarea name="Câu hỏi ban nội dung"></textarea>
+</div>
+
+<script>
+function cauhoibannoidung() {
+  document.getElementById("bannoidung").style.visibility = "visible";
+}
+</script>
 
 <button style="display: block;" class="btn btn-white btn-animation-1 trigger" type="submit">GỬI ĐƠN!</button>
 </form>
